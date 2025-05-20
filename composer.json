@@ -1,0 +1,16 @@
+{
+    "name": "wiktoriabronowska/coffee-machine",
+    "autoload": {
+        "psr-4": {
+            "CoffeeMachine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CoffeeMachine\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
